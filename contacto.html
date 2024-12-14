@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preload" href="styles.css" as="style">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro de Lubricación y Mecánica Dani. Servicios de lubricación, mecánica ligera y diagnóstico computarizado para su vehículo.">
+    <meta name="keywords" content="lubricación automotriz, mecánica ligera, diagnóstico de vehículos, centro de lubricación, mantenimiento de autos">
+    <meta name="author" content="Centro de Lubricación Dani">
+    <title>Centro de Lubricación Dani</title>
+    <!-- Enlace a Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Enlace a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Cabecera -->
+  <header>
+      <div class="cabecera">
+          <div class="logo-gif-container">
+              <div class="logo">
+                  <a href="index.html"><img src="Recursos/CLDLOGO3D.png" alt="logo de la compañía"></a>
+              </div>
+              <div class="gif-container">
+                  <img src="Recursos/slogangifunavez.gif" alt="GIF de la empresa">
+              </div>
+          </div>
+      <nav>
+          <ul class="main-menu">
+              <li><a href="index.html" class="nav-link">Inicio</a></li>
+              <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+              <li><a href="nroductos.html" class="nav-link">Productos</a></li>
+              <li><a href="sobrenosotros.html" class="nav-link">Sobre Nosotros</a></li>
+              <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <!-- Contenedor principal de la sección de contacto -->
+    <div class="contact-form-section">
+        <!-- Zona de Información de Contacto -->
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="icon">📍</div>
+                <h3>CASA CENTRAL</h3>
+                <p>Av. Luis Maria Argaña e/ Las Palmas<br>Asuncion, Paraguay</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon">📱</div>
+                <h3>NÚMERO DE TELÉFONO</h3>
+                <p>0972 163626<br>0981 297312</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon">👨🏻🛠️</div>
+                <h3>PROPIETARIO</h3>
+                <p>Pablo Daniel Silvero</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon">📧</div>
+                <h3>CORREO ELECTRÓNICO</h3>
+                <p><a href="mailto:reib2md@gmail.com">reib2md@gmail.com</a></p>
+            </div>
+        </div>
+
+        <!-- Formulario de contacto -->
+        <div class="contact-form">
+            <h2>Contáctenos</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ingrese su nombre" required>
+                <input type="email" name="email" placeholder="Ingrese un correo válido" required>
+                <textarea name="message" rows="5" placeholder="Escriba su mensaje" required></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- Contenedor principal del footer -->
+            <div class="footer-left">
+                <!-- Menú de navegación del footer -->
+                <ul class="menu">
+                    <li><a href="sobrenosotros.html">¿Quiénes somos?</a></li>
+                    <li><a href="productos.html">Nuestros productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <!-- Iconos sociales -->
+                <ul class="social_icon">
+                    <li><a href="https://www.facebook.com/LUBRICACIONDANI"  aria-label="Facebook" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="https://www.instagram.com/" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+                <!-- Dirección y horario -->
+                <p class="footer-info">
+                    Dirección: Av. Luis Maria Argaña e/ Las Palmas, Asuncion, Paraguay<br>
+                    Horario de Atención: Lunes a Viernes, 7:30 AM - 6:00 PM <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sabados de 7:30 AM - 3:00 PM
+                </p>
+            </div>
+            <!-- Mapa -->
+            <div class="footer-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.121809189934!2d-57.62310912011109!3d-25.333693269752803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da9f664c37203%3A0x1df4499223e977c4!2sCentro%20de%20Lubricaci%C3%B3n%20Dani!5e0!3m2!1ses!2spy!4v1733186988648!5m2!1ses!2spy" 
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/595972163626?text=Hola! Vengo de la pagina web, estoy interesado en sus servicios" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
